@@ -1,0 +1,10 @@
+// banner.addEventListener('click',()=>{
+// wrapper.style.backgroundImage = "url('/img/slide2.jpg')";
+// wrapper.setAttribute("src","/img/slide2.jpg")
+//   alert("aqui");
+// });
+banner.addEventListener("click",()=> {
+  // wrapper.style.backgroundImage = "url('/img/slide2.jpg')";
+  // wrapper.setAttribute("src", "/img/slide2.jpg")
+  alert("aqui");
+});
