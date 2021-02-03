@@ -5,11 +5,13 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  position: relative;
   background: linear-gradient(180deg, rgb(30, 28, 66), rgb(11, 1, 32));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto;
 }
 
-span{
+/* span{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -18,7 +20,7 @@ span{
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-}
+} */
 .box-slider{
   width: 100%;
   max-width: 450px;
@@ -27,7 +29,7 @@ span{
   bottom: 20px;
   left: 50%;
   transform: translatex(-50%);
-  margin: 0 10px;
+  /* margin: 0 10px; */
   background-color: rgba(255, 255, 255, .15);  
   backdrop-filter: blur(5px);
   display: flex;
@@ -37,6 +39,9 @@ span{
 }
 
 @media (max-width: 600px){
+  .wrapper{
+    background-size:150vh;
+  }
   .box-slider{
     padding: 5px 5px;
     bottom: 20px;
